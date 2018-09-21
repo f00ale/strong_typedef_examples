@@ -1,0 +1,9 @@
+[submodule "ext/namedtype"]
+	path = ext/namedtype
+	url = https://github.com/joboccara/NamedType.git
+[submodule "ext/type_safe"]
+	path = ext/type_safe
+	url = https://github.com/foonathan/type_safe.git
+[submodule "ext/strong_type"]
+	path = ext/strong_type
+	url = https://github.com/rollbear/strong_type.git
