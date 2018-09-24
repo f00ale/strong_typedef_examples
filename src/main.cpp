@@ -7,5 +7,5 @@ int main() {
     run_namedtype();
     run_strong_type();
     run_type_safe();
-//    run_stype();
+    run_stype();
 }
