@@ -74,7 +74,7 @@ void test_my_int() {
     static_assert(std::is_same_v<decltype(i3),my_int>);
 
     std::cout << i3 << std::endl;
-    // namedtype not constexpr!
+    // not all libs constexpr, so "usual" assert
     assert(my_int(5)+my_int(7) == my_int(12));
 
     assert(test_add_ints(my_int(3), my_int(5)) == 8);
